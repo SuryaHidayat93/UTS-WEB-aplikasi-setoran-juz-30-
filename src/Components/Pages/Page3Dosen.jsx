@@ -8,10 +8,13 @@ const Page3Dosen = () => {
         <div className=' h-screen w-screen z-10 '>
             <Navbar></Navbar>
             <div className="w-full  h-full flex flex-col items-center">
-                <div className=" w-1/3 h-full flex flex-col items-center">
-                    <div className=" w-full h-1/2 flex flex-col items-center mt-4">
-                        <div className='bg-white w-1/2 h-fit'>
-                            <img className='ml-5' src="/images/Userbox.png" alt="" />
+                <button className="mr-auto relative ml-10 mt-5">
+                    <img src="/images/arrowleft.png" alt="" />
+                </button>
+                <div className=" w-1/3 h-full flex flex-col bg-slate-400 items-center">
+                    <div className=" w-full h-1/2 flex flex-col items-center justify-center mt-4">
+                        <div className='bg-white w-fit h-fit flex items-center'>
+                            <img className='' src="/images/Userbox.png" alt="" />
                         </div>
                         <div className=' flex flex-col items-center justify-center font-inter font-medium'>
                             <p>Abdul</p>
@@ -36,6 +39,7 @@ const Page3Dosen = () => {
                     <Button className="bg-black font-inter text-white w-64 h-12 mt-4">Simpan</Button>
                 </div>
             </div>
+
         </div>
     )
 }
