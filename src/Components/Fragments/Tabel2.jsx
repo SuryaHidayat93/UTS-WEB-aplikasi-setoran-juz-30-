@@ -16,16 +16,16 @@ const Tabel2 = ({ className = 'text-abu font-inter font-semibold', }) => {
                     <p>Status</p>
                 </div>
             </div>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
-            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
+            <IsiTabel className="mt-0 border-t border-abumuda font-medium font-inter ml-10" namaSurah={"An-Naba'"} tanggalSetoran={"24-10-2022"} status={"Selesai"}></IsiTabel>
         </div>
     )
 }

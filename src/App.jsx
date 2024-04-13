@@ -10,6 +10,7 @@ import Page4Dosen from './Components/Pages/Page4Dosen';
 import DropdownDate from './Components/Elements/DropdownDate';
 import Page1Mahasiswa from './Components/Pages/Page1Mahasiswa';
 import Page2Mahasiswa from './Components/Pages/Page2Mahasiswa';
+import Page3Mahasiswa from './Components/Pages/Page3Mahasiswa';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <Page3Dosen></Page3Dosen> */}
       {/* <Page4Dosen></Page4Dosen> */}
       {/* <Page1Mahasiswa></Page1Mahasiswa> */}
-      <Page2Mahasiswa></Page2Mahasiswa>
+      {/* <Page2Mahasiswa></Page2Mahasiswa> */}
+      <Page3Mahasiswa></Page3Mahasiswa>
     </div>
   );
 }

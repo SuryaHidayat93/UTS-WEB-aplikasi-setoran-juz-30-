@@ -13,7 +13,7 @@ const Navbar2 = ({ className }) => {
     };
     return (
         <div>
-            <Sidebar2 className={' absolute w-72 h-screen'} isVisible={sidebarVisible} onClose={handleCloseSidebar} />
+            <Sidebar2 className={'absolute w-72 h-screen'} isVisible={sidebarVisible} onClose={handleCloseSidebar} />
             <nav className='w-full h-14 items-center flex border-b border-colorr-abu' >
                 <div className='ml-2 '>
                     <button className=' min-h-14' onClick={toggleSidebar}>
