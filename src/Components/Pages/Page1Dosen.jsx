@@ -4,6 +4,7 @@ import IsiInput from "../Elements/IsiInput";
 import React from 'react';
 
 function Page1Dosen() {
+
     return (
         <div className=' h-screen w-screen z-10'>
             <Navbar className={'fixed z-50'}></Navbar>
@@ -22,5 +23,4 @@ function Page1Dosen() {
         </div>
     );
 }
-
 export default Page1Dosen;

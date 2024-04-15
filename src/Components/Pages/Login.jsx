@@ -2,6 +2,7 @@ import Button from "../Elements/Button";
 import { useState } from 'react';
 import PasswordInput from "../Elements/PasswordInput";
 import Navbar from '../Fragments/Navbar'
+import { Link } from "react-router-dom"
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false);
 
@@ -11,7 +12,7 @@ const Login = () => {
     return (
 
         <div className="flex justify-center min-h-screen items-center ">
-            <Navbar></Navbar>
+            {/* <Navbar></Navbar> */}
             <p className='font-inter text-3xl font-semibold absolute left-10 top-10'>SIMHATIF</p>
             <div className=" h-1/2 w-1/4 absolute">
                 <div className="h-1/6 w-3/4 absolute  ml-10  justify-center items-center flex-col">
@@ -55,7 +56,9 @@ const Login = () => {
                             </button>
                         </div> */}
                     </form>
-                    <Button className="w-full bg-black h-8 mt-4">Sign In</Button>
+                    <Link to="/HomeDosen">
+                        <Button className="w-full bg-black h-8 mt-4">Sign In</Button>
+                    </Link>
                 </div>
                 <div className="text-center">
                     <p className='font-inter text-sm font-regular text-abu'>By clicking continue, you agree to our <span className='text-black '>Terms of Service</span> and <span className='text-black'>Privacy Policy</span></p>

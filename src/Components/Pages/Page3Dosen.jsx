@@ -3,15 +3,18 @@ import Navbar from "../Fragments/Navbar"
 import Dropdown from "../Elements/Dropdown"
 import DropdownDate from "../Elements/DropdownDate"
 import Button from "../Elements/Button"
+import { Link } from "react-router-dom"
 const Page3Dosen = () => {
     return (
         <div className=' h-screen w-screen z-10 '>
             <Navbar></Navbar>
             <div className="w-full  h-full flex flex-col items-center">
-                <button className="mr-auto relative ml-10 mt-5">
-                    <img src="/images/arrowleft.png" alt="" />
-                </button>
-                <div className=" w-1/3 h-full flex flex-col bg-slate-400 items-center">
+                <Link to="/SetoranMahasiswa" className="mr-auto relative ml-10 mt-5">
+                    <button >
+                        <img src="/images/arrowleft.png" alt="" />
+                    </button>
+                </Link>
+                <div className=" w-1/3 h-full flex flex-col  items-center">
                     <div className=" w-full h-1/2 flex flex-col items-center justify-center mt-4">
                         <div className='bg-white w-fit h-fit flex items-center'>
                             <img className='' src="/images/Userbox.png" alt="" />

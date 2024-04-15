@@ -23,7 +23,7 @@ function App() {
       {/* <Page4Dosen></Page4Dosen> */}
       {/* <Page1Mahasiswa></Page1Mahasiswa> */}
       {/* <Page2Mahasiswa></Page2Mahasiswa> */}
-      <Page3Mahasiswa></Page3Mahasiswa>
+      <Login></Login>
     </div>
   );
 }
